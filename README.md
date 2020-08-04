@@ -5,7 +5,7 @@ Sample code for responsive wedding invitation project.
 - HTML
 - CSS
 - Bootstrap
-- Javascrip
+- Javascript
 
 # Contact
 - Instagram : @irvaen182
