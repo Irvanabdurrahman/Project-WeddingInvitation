@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Wedding Ceremony</title>
+	<title>Wedding Invitation</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -10,11 +10,19 @@
 	<link href="common-css/font.css?family=Playball%7CBitter" rel="stylesheet">
 	
 	<!-- Stylesheets -->
+
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+
 	<link href="common-css/bootstrap.css" rel="stylesheet">
 	<link href="common-css/fluidbox.min.css" rel="stylesheet">
 	<link href="common-css/font-icon.css" rel="stylesheet">
 	<link href="01-homepage/css/styles.css" rel="stylesheet">
 	<link href="01-homepage/css/responsive.css" rel="stylesheet">
+	<link href="04-wed3/css/aos.css" rel="stylesheet">
+	<link href="04-wed3/css/ekko-lightbox.css" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
 <body>
 	<header>
@@ -23,9 +31,8 @@
 			<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>
 			<ul class="main-menu visible-on-click" id="main-menu">
 				<li><a href="index.html">HOME</a></li>
-				<li><a href="index.html">OUR STORIES</a></li>
-				<li><a href="03-regular-page.html">THER WEDDING</a></li>
-				<li><a href="#">GELLERY</a></li>
+				<li><a href="03-regular-page.html">OUR STORIES</a></li>
+				<li><a href="04-galery.html">GALLERY</a></li>
 				<li><a href="02-rsvp.html">RSVP</a></li>
 			</ul><!-- main-menu -->
 		</div><!-- container -->
@@ -36,9 +43,10 @@
 			<div class="display-table-cell">
 				<div class="slider-content">
 					<i class="small-icon icon icon-tie"></i>
-					<h5 class="date">27 NOVEMBER 2020</h5>
+					<h1 class="title">Irvan & Norma</h1>
 					<h3 class="pre-title">Save The Date</h3>
-					<h1 class="title">Norma <i class="icon icon-heart"></i> Irvan</h1>
+					<h5 class="date" data-aos="zoom-in-down" data-aos-duration="1000">27 NOVEMBER 2020</h5>
+					
 				</div><!-- slider-content-->
 			</div><!--display-table-cell-->
 		</div><!-- display-table-->
@@ -46,18 +54,23 @@
 	
 	<section class="section story-area center-text">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-10">
-					<div class="heading">
-						<h2 class="title">Our Story</h2>
-						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
-					<p class="desc margin-bottom">Every bride and groom wants an incomparable wedding combined with fantasy 
-					and style. We create stunning, one-of-a-kind events produced and styled to perfection. 
-					From traditional to modern, elegant and relaxed, we focus on any event we plan.</p>
-				</div><!-- col-sm-10 -->
-			</div><!-- row -->
+			<div class="ww-section" id="couple">
+				<div class="container">
+				    <h2 class="title" data-aos="zoom-in-down" data-aos-duration="1000">Groom & Bride</h2>
+				    <div class="row text-center">
+				      <div class="col-md-6">
+				        <div class="mt-3"><img class="img-fluid" src="images/groom.jpg" alt="Groom" data-aos="flip-left" data-aos-duration="1000"/>
+				          <h3 class="h2 ww-title">Irvan Abdurrahman</h3>
+				        </div>
+				      </div>
+				      <div class="col-md-6">
+				        <div class="mt-3"><img class="img-fluid" src="images/bride.jpg" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/>
+				          <h3 class="h2 ww-title">Norma Desitasari</h3>
+				        </div>
+				      </div>
+				    </div>
+				</div>
+			</div>
 		</div><!-- container -->
 	</section><!-- section -->
 	
@@ -73,54 +86,57 @@
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
 					<div class="remaining-time">
-						<div id="clock"></div>
+						<div id="clock" data-aos="zoom-in-down" data-aos-duration="1000"></div>
 					</div><!-- remaining-time -->
 				</div><!-- col-sm-10 -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
 	<section class="section w-details-area center-text">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-10">
-					
-					<div class="heading">
-						<h2 class="title">Wedding Details</h2>
-						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
-					
-					<div class="wedding-details margin-bottom">
-						
-						<div class="w-detail right">
-							<i class="icon icon-ciurclke"></i>
-							<h4 class="title">CEREMONY</h4>
-							<p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail left">
-							<i class="icon icon-wine-glass"></i>
-							<h4 class="title">TOAST & DINNER</h4>
-							<p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail right">
-							<i class="icon icon-cake"></i>
-							<h4 class="title">WEDDING CAKE</h4>
-							<p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail left">
-							<i class="icon icon-camera"></i>
-							<h4 class="title">PHOTOGRAPHY</h4>
-							<p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-						</div><!-- w-detail -->
-						
-					</div><!-- wedding-details -->
-					
-				</div><!-- col-sm-10 -->
-			</div><!-- row -->
-		</div><!-- container -->
+		<div class="ww-section bg-light" id="events">
+		  <div class="container ww-wedding-event">
+		    
+		    <div class="heading">
+		    	<h2 class="title">Wedding Events</h2>
+				<span class="heading-bottom"><i class="icon icon-star"></i></span>
+			</div>
+		    <div class="row">
+		      <div class="col-md-7 col-sm-12 flo">
+		        <div class="my-3">
+		          <div class="h4 ">Akad Nikah</div>
+		          <ul>
+		            <li><i class="text-muted fas fa-map-marker-alt"></i><span class="pl-2 text-muted">Banjarmasin, Kalimantan Selatan, Indonesia</span></li>
+		            <br><li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">27 Nov 2020, 9AM - 6PM</span></li>
+		          </ul>
+		          <br>
+		          <p>Jl. Kendedes III No.103 RT.41 Komp. Beruntung Jaya, Banjarmasin Selatan</p>
+		        </div>
+		      </div>
+		      <div class="col-md-5 col-sm-12">
+		        <div class="my-3" data-aos="zoom-in-down" data-aos-duration="1000"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.7435516967525!2d114.62168102010727!3d-3.3564623130935867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de426cd060fc96b%3A0x70430f3c0f91b942!2sJl.%20Kendedes%20III%2C%20Pemurus%20Dalam%2C%20Kec.%20Banjarmasin%20Sel.%2C%20Kota%20Banjarmasin%2C%20Kalimantan%20Selatan%2070238%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1596530112819!5m2!1sen!2sjp" 
+			width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+		      </div>
+		    </div>
+		    <br>
+		    <div class="row">
+		      <div class="col-md-7 col-sm-12">
+		        <div class="my-3">
+		          <div class="h4">Resepsi</div>
+		          <ul>
+		            <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted">Musi Rawas Utara, Sumatera Selatan, Indonesia</span></li>
+		            <br><li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">28 Dec 2020, 11AM - 6PM</span></li>
+		          </ul>
+		          <br>
+		          <p>Desa Lesung Batu Muda, Jl. Madrasah Kec. Rawas Ulu</p>
+		        </div>
+		      </div>
+		      <div class="col-md-5 col-sm-12">
+		        <div class="my-3" data-aos="zoom-in-down" data-aos-duration="1000"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.7435516967525!2d114.62168102010727!3d-3.3564623130935867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de426cd060fc96b%3A0x70430f3c0f91b942!2sJl.%20Kendedes%20III%2C%20Pemurus%20Dalam%2C%20Kec.%20Banjarmasin%20Sel.%2C%20Kota%20Banjarmasin%2C%20Kalimantan%20Selatan%2070238%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1596530112819!5m2!1sen!2sjp" 
+			width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</section><!-- section -->
 	
 	<section class="section ceremony-area center-text">
@@ -138,8 +154,6 @@
 						celebrations that exceed expectations. Our personal approach ensures the weddings we 
 						plan are meaningful and truly reflect our clients as individuals, as couples, and states 
 						something about their shared values and sense of style.</p>
-						
-						<a class="border-btn" href="#">LEARN MORE</a>
 					</div>
 					
 				</div><!-- col-sm-10 -->
@@ -147,69 +161,43 @@
 		</div><!-- container -->
 	</section><!-- section -->
 	
-	<section class="section galery-area center-text">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="heading">
-						<h2 class="title">Gallery</h2>
-						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
-					<div class="image-gallery">
-						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-						</div><!-- row -->
-						<a class="btn-2 margin-bottom gallery-btn" href="#">VIEW ALL GALLERY</a>
-					</div><!-- image-gallery -->
-				</div><!-- col-sm-10 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- section -->
-	
-	<section class="contact-area">
-		<div class="contact-wrapper section float-left">
+		<section class="section galery-area center-text">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2"></div>
-					<div class="col-sm-10">
+					<div class="col-sm-12">
 						<div class="heading">
-							<h3 class="title">Alamat</h3>
-							<i class="icon icon-star"></i>
+							<h2 class="title">Gallery</h2>
+							<span class="heading-bottom"><i class="icon icon-star"></i></span>
 						</div>
-						<div class="margin-bottom">
-							<p>Jl. Kendedes III No.103 RT.41 Komp. Beruntung Jaya,</p>
-							<p>Banjarmasin Selatan,</p>
-							<h6><a href="#" class="phone">Kota Banjarmasin</a></h6>
-							<p>Kalimantan Selatan, Indonesia.</p>
-						</div><!-- margin-bottom -->
+						<div class="image-gallery " data-aos="zoom-in-down" data-aos-duration="1000">
+							<div class="row">
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-1-600x400.jpg" data-fluidbox  data-toggle="lightbox" data-gallery="ww-gallery"><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+								<div class="col-md-4 col-sm-6">
+									<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+								</div><!-- col-sm-4 -->
+							</div><!-- row -->
+							<a class="btn-2 margin-bottom gallery-btn" href="04-galery.html">VIEW ALL GALLERY</a>
+						</div><!-- image-gallery -->
 					</div><!-- col-sm-10 -->
 				</div><!-- row -->
 			</div><!-- container -->
-		</div><!-- float-left -->
-		<div class="map-area" >
-			<div id="map" style="height:100%;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.7435516967525!2d114.62168102010727!3d-3.3564623130935867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de426cd060fc96b%3A0x70430f3c0f91b942!2sJl.%20Kendedes%20III%2C%20Pemurus%20Dalam%2C%20Kec.%20Banjarmasin%20Sel.%2C%20Kota%20Banjarmasin%2C%20Kalimantan%20Selatan%2070238%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1596530112819!5m2!1sen!2sjp" 
-			width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</div>
-		</div><!-- map-area -->
-	</section><!-- section -->
+		</section><!-- section -->
+	
+
 	<footer>
 		<div class="container center-text">
 			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -225,5 +213,8 @@
 	<script src="common-js/jquery.countdown.min.js"></script>
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	<script src="common-js/scripts.js"></script>
+	<script src="common-js/aos.js"></script>
+	<script src="common-js/ekko-lightbox.js"></script>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
